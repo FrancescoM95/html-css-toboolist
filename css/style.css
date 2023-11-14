@@ -8,7 +8,7 @@
 /* generics */
 body {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 26px;
+    font-size: 18px;
     background-color: #b0afaf;
 }
 
@@ -27,10 +27,52 @@ h1 {
 
 .button {
     border-radius: 10px;
-    padding: 10px;
+    padding: 7px;
     border: 1px solid;
 }
 
+ul,
+ol{
+    list-style-position: inside;
+    list-style-type: none
+}
+
+li{
+    margin: 15px 0;
+}
+
+ul>li{
+    margin: 30px 0;
+}
+
+ol>li{
+    font-size: 16px;
+}
+/* utils */
+
+.triangolo{
+    height: 7px; 
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.check{
+    font-size: 8px;
+    color: green;
+    border: 1px solid green;
+    border-radius: 50%;
+    padding: 2px;
+    margin-right: 5px;
+}
+
+.cross{
+    font-size: 8px;
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 3px;
+    margin-right: 5px;
+}
 /* header */
 
 .logo-box {
@@ -48,11 +90,13 @@ h1 {
 /* main */
 
 .main-header {
-    padding: 5px 30px;
+    padding: 10px 30px;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
     border: solid white;
+    border-bottom: 1px solid #b0afaf;
     background-color: #fff;
+
 }
 
 #b-task {
@@ -65,3 +109,9 @@ h1 {
     color: gray;
     background-color: #fff;
 }
+
+.list-box{
+    background-color: #fff;
+    padding: 10px 0 10px 30px;
+}
+
