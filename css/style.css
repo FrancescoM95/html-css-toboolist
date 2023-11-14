@@ -1,32 +1,67 @@
 /* css reset */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 /* generics */
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
     background-color: #b0afaf;
 }
 
-h1{
+h1 {
     display: inline;
-    font-size: 40px ;
+    font-size: 40px;
     font-weight: 900;
     line-height: 80px;
 }
 
+.container {
+    max-width: 760px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.button {
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid;
+}
+
 /* header */
 
-.logo-box{
+.logo-box {
     background-color: #fff;
     height: 80px;
 
 }
 
-.logo-box>img{
+.logo-box>img {
     margin: 10px 0 20px 20px;
     vertical-align: middle;
+}
+
+
+/* main */
+
+.main-header {
+    padding: 5px 30px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border: solid white;
+    background-color: #fff;
+}
+
+#b-task {
+    color: #fff;
+    background-color: #1E90FF;
+    
+}
+
+#b-section {
+    color: gray;
+    background-color: #fff;
 }
