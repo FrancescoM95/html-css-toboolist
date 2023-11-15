@@ -6,6 +6,7 @@
 }
 
 /** Generics */
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
@@ -18,25 +19,8 @@ body {
     border: 1px solid;
 }
 
-ul,
-ol {
-    list-style-position: inside;
-    list-style-type: none
-}
-
-li {
-    margin: 15px 0;
-}
-
-ul>li {
-    margin: 30px 0;
-}
-
-ol>li {
-    font-size: 16px;
-}
-
 /** Utils */
+
 .container {
     max-width: 760px;
     margin: 0 auto;
@@ -132,6 +116,24 @@ h1 {
     background-color: #fff;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+}
+
+ul,
+ol {
+    list-style-position: inside;
+    list-style-type: none
+}
+
+li {
+    margin: 15px 0;
+}
+
+ul>li {
+    margin: 30px 0;
+}
+
+ol>li {
+    font-size: 16px;
 }
 
 /*? varius post color  */
