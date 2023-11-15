@@ -58,10 +58,7 @@ ol>li {
     vertical-align: middle;
 }
 
-.check {
-    font-size: 8px;
-    color: green;
-    border: 1px solid green;
+.item{
     border-radius: 50%;
     padding: 2px;
     margin-right: 5px;
@@ -70,13 +67,16 @@ ol>li {
     text-align: center;
 }
 
-.cross {
+.item.check {
+    font-size: 8px;
+    color: green;
+    border: 1px solid green;  
+}
+
+.item.cross {
     font-size: 8px;
     color: red;
     border: 1px solid red;
-    border-radius: 50%;
-    padding: 3px;
-    margin-right: 5px;
 }
 
 .post {
