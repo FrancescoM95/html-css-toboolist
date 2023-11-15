@@ -17,6 +17,7 @@ h1 {
     font-size: 40px;
     font-weight: 900;
     line-height: 80px;
+    vertical-align: middle;
 }
 
 .container {
@@ -97,7 +98,7 @@ ol>li {
 }
 
 .logo-box>img {
-    margin: 10px 0 20px 20px;
+    margin-left: 20px;
     vertical-align: middle;
 }
 
